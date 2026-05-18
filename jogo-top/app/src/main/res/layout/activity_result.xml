@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0d0d0d"
+    android:gravity="center">
+
+    <!-- ANÚNCIO TOPO -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1a1a1a"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[BANNER PUB]"
+            android:textColor="#444"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏆 FIM DE JOGO! 🏆"
+            android:textColor="#FFD700"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sua pontuação"
+            android:textColor="#888"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tvPontos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#00ff88"
+            android:textSize="48sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nível 1"
+            android:textColor="#888"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnJogar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="JOGAR NOVAMENTE"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#00ff88"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btnCompartilhar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="COMPARTILHAR"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:background="#333"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <!-- ANÚNCIO RODAPÉ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1a1a1a"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[BANNER PUB]"
+            android:textColor="#444"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
